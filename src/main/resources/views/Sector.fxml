@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.troutarea.notes.controllers.SectorController"
+          hgap="5" vgap="30" alignment="TOP_LEFT"
+          stylesheets="/images/style/styles.css">
+
+    <!-- Фоновое изображение -->
+    <ImageView fx:id="backgroundImage" fitWidth="800" fitHeight="600" preserveRatio="false"
+               GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.rowSpan="20" GridPane.columnSpan="4"/>
+
+    <Label text="Выберите сектор:" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2"
+           style="-fx-font-weight: bold; -fx-text-fill: white;" alignment="CENTER_LEFT"/>
+
+
+    <!-- Кнопки секторов в столбик -->
+    <Button text="Сектор 1" fx:id="btnSector1" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Button text="Сектор 2" fx:id="btnSector2" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Button text="Сектор 3" fx:id="btnSector3" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Button text="Сектор 4" fx:id="btnSector4" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <Button text="Сектор 5" fx:id="btnSector5" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <Button text="Сектор 6" fx:id="btnSector6" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+    <Button text="Сектор 7" fx:id="btnSector7" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+    <Button text="Сектор 8" fx:id="btnSector8" GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+    <Button text="Сектор 9" fx:id="btnSector9" GridPane.rowIndex="9" GridPane.columnIndex="0"/>
+    <Button text="Сектор 10" fx:id="btnSector10" GridPane.rowIndex="10" GridPane.columnIndex="0"/>
+    <Button text="Сектор 11" fx:id="btnSector11" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <Button text="Сектор 12" fx:id="btnSector12" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Button text="Сектор 13" fx:id="btnSector13" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <Button text="Сектор 14" fx:id="btnSector14" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    <Button text="Сектор 15" fx:id="btnSector15" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+    <Button text="Сектор 16" fx:id="btnSector16" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+    <Button text="Сектор 17" fx:id="btnSector17" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+    <Button text="Сектор 18" fx:id="btnSector18" GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+    <Button text="Сектор 19" fx:id="btnSector19" GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+    <Button text="Сектор 20" fx:id="btnSector20" GridPane.rowIndex="10" GridPane.columnIndex="1"/>
+
+
+    <!--    второй столбец -->
+    <Button text="Сектор 21" fx:id="btnSector21" GridPane.rowIndex="1" GridPane.columnIndex="8"/>
+    <Button text="Сектор 22" fx:id="btnSector22" GridPane.rowIndex="2" GridPane.columnIndex="8"/>
+    <Button text="Сектор 23" fx:id="btnSector23" GridPane.rowIndex="3" GridPane.columnIndex="8"/>
+    <Button text="Сектор 24" fx:id="btnSector24" GridPane.rowIndex="4" GridPane.columnIndex="8"/>
+    <Button text="Сектор 25" fx:id="btnSector25" GridPane.rowIndex="5" GridPane.columnIndex="8"/>
+    <Button text="Сектор 26" fx:id="btnSector26" GridPane.rowIndex="6" GridPane.columnIndex="8"/>
+    <Button text="Сектор 27" fx:id="btnSector27" GridPane.rowIndex="7" GridPane.columnIndex="8"/>
+    <Button text="Сектор 28" fx:id="btnSector28" GridPane.rowIndex="8" GridPane.columnIndex="8"/>
+    <Button text="Сектор 29" fx:id="btnSector29" GridPane.rowIndex="9" GridPane.columnIndex="8"/>
+    <Button text="Сектор 30" fx:id="btnSector30" GridPane.rowIndex="10" GridPane.columnIndex="8"/>
+    <Button text="Сектор 31" fx:id="btnSector31" GridPane.rowIndex="1" GridPane.columnIndex="9"/>
+    <Button text="Сектор 32" fx:id="btnSector32" GridPane.rowIndex="2" GridPane.columnIndex="9"/>
+    <Button text="Сектор 33" fx:id="btnSector33" GridPane.rowIndex="3" GridPane.columnIndex="9"/>
+    <Button text="Сектор 34" fx:id="btnSector34" GridPane.rowIndex="4" GridPane.columnIndex="9"/>
+    <Button text="Сектор 35" fx:id="btnSector35" GridPane.rowIndex="5" GridPane.columnIndex="9"/>
+    <Button text="Сектор 36" fx:id="btnSector36" GridPane.rowIndex="6" GridPane.columnIndex="9"/>
+    <Button text="Сектор 37" fx:id="btnSector37" GridPane.rowIndex="7" GridPane.columnIndex="9"/>
+    <Button text="Сектор 38" fx:id="btnSector38" GridPane.rowIndex="8" GridPane.columnIndex="9"/>
+    <Button text="Сектор 39" fx:id="btnSector39" GridPane.rowIndex="9" GridPane.columnIndex="9"/>
+    <Button text="Сектор 40" fx:id="btnSector40" GridPane.rowIndex="10" GridPane.columnIndex="9"/>
+</GridPane>
+

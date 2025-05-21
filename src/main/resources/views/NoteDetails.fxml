@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.troutarea.notes.controllers.NoteDetailsController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <VBox spacing="10" alignment="TOP_LEFT" AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+            <Label text="Тур:"/>
+            <TextField fx:id="tourField" />
+
+            <Label text="Приманка:"/>
+            <TextField fx:id="lureField" />
+
+            <Label text="Цвет приманки:"/>
+            <TextField fx:id="lureDescField" />
+
+            <Label text="Описание проводки:"/>
+            <TextArea fx:id="descriptionWiringField" prefRowCount="3" />
+
+            <Label text="Активность рыбы:"/>
+            <TextField fx:id="fishActivityField" />
+
+            <Label text="Горизонт ловли:"/>
+            <TextField fx:id="horizonField" />
+
+            <Label text="Мутность воды:"/>
+            <TextField fx:id="waterClarityField" />
+
+            <Label text="Погода:"/>
+            <TextField fx:id="weatherField" />
+
+            <Label text="Дальность заброса:"/>
+            <TextField fx:id="castDistanceField" />
+
+            <Label text="Снасть:"/>
+            <TextField fx:id="fishingGearField" />
+
+            <Label text="Сектор:"/>
+            <TextField fx:id="sectorField" />
+
+            <Label text="Дата:"/>
+            <TextField fx:id="dateField" />
+
+        </VBox>
+    </children>
+</AnchorPane>

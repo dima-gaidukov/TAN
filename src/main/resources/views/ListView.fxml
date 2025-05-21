@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.troutarea.notes.controllers.NoteController"
+      prefHeight="600.0" prefWidth="800.0">
+
+    <HBox spacing="10">
+        <Button text="Сохранить" onAction="#handleSaveButton" />
+        <Button text="Отмена" onAction="#handleCancelButton" />
+    </HBox>
+
+    <!-- Здесь должно быть содержимое для отображения списка заметок -->
+    <TableView fx:id="notesTableView" VBox.vgrow="ALWAYS">
+        <columns>
+
+            <TableColumn fx:id="tourColumn" text="Номер Тура" />
+            <TableColumn fx:id="lureColumn" text="Приманка" />
+            <TableColumn fx:id="lureDescColumn" text="Цвет приманки" />
+            <TableColumn fx:id="descriptionWiringColumn" text="Описание проводки" />
+            <TableColumn fx:id="fishActivityColumn" text="Активность рыбы" />
+            <TableColumn fx:id="horizonColumn" text="Горизонт ловли" />
+            <TableColumn fx:id="waterClarityColumn" text="Мутность воды" />
+            <TableColumn fx:id="weatherColumn" text="Погода" />
+            <TableColumn fx:id="castDistanceColumn" text="Дальность заброса" />
+            <TableColumn fx:id="fishingGearColumn" text="Снасть" />
+        </columns>
+    </TableView>
+
+    <!-- Кнопки для навигации -->
+    <Button text="Назад" onAction="#handleBackButton" />
+    <Button text="Просмотреть детали" onAction="#handleViewDetailsButton" />
+
+</VBox>
+

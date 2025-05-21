@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.image.Image?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.troutarea.notes.controllers.SplashController">
+    <!-- Полноэкранный ImageView для показа заставки -->
+    <ImageView fx:id="splashImage" layoutX="0" layoutY="0" fitWidth="800" fitHeight="600" preserveRatio="true" />
+</AnchorPane>
+
